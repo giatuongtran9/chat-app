@@ -1,6 +1,6 @@
 import { io } from 'socket.io-client'
 
-const URL = 'http://localhost:8000'
+const URL = 'https://tuongtran-chatapp.herokuapp.com/'
 const socket = io(URL, { autoConnect: false })
 
 socket.onAny((event, ...args) => {
